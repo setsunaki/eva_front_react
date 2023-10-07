@@ -1,5 +1,5 @@
-.body{
-  background-color: #ecebeb;
+body{
+  background-color: #ebe5e5a9;
 }
 
 .Home {
@@ -8,13 +8,16 @@
   align-items: center;
   background-color: #fff; 
   border-radius: 15px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 0 10px rgba(2, 145, 189, 0.534); 
   padding: 20px;
   max-width: 600px;
   margin: auto; 
   margin-top: 50px; 
 }
 
+.Home h1{
+  color:#007591;
+}
 
 .Cbox {
   display: flex;
@@ -25,17 +28,19 @@
 .Cbox select {
   margin-right: 10px; 
   font-size: 11px; 
-  border: 1px solid #000; 
   border-radius: 10px; 
   padding: 5px; 
   transition: font-size 0.3s;
+  background-color: #007591; 
+  color: #ffffff;
+  background-image: none;
+  -webkit-appearance: none; 
 }
 
 .Cbox select:hover,
 .Cbox select:focus {
   font-size: 13px;
 }
-
 
 .Grilla {
   width: 100%; 
