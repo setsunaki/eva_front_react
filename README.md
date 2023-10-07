@@ -8,7 +8,7 @@ Tener [Node.js](https://nodejs.org/) instalado.
 
 ## Instalación
 
-1. Clona este repositorio: `git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/setsunaki/eva_front_react.git)`
+1. Clona este repositorio: `git clone https://github.com/setsunaki/eva_front_react.git`
 2. Accede al directorio del proyecto: `cd nombre-del-proyecto`
 
 ## Uso
