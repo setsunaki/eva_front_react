@@ -22,6 +22,7 @@ function App() {
   return (
     <>
       <article className='Home'>
+        <h1>Lista de dispositivos</h1>
         <div className='Cbox'>
           <BodegasCbx onSelect={handleSelect} />
           <MarcasCbx onSelect={handleSelect} />
