@@ -21,14 +21,16 @@ function App() {
 
   return (
     <>
-      <div className='Cbox'>
-        <BodegasCbx onSelect={handleSelect} />
-        <MarcasCbx onSelect={handleSelect} />
-        <ModelosCbx onSelect={handleSelect} marcaId={filtro.marca} />
-      </div>
-      <div className='Grilla'> 
-        <Grilla bodegaId={filtro.bodega} modeloId = {filtro.modelo} marcaId = {filtro.marca}/>
-      </div>
+      <article className='Home'>
+        <div className='Cbox'>
+          <BodegasCbx onSelect={handleSelect} />
+          <MarcasCbx onSelect={handleSelect} />
+          <ModelosCbx onSelect={handleSelect} marcaId={filtro.marca} />
+        </div>
+        <div className='Grilla'> 
+          <Grilla bodegaId={filtro.bodega} modeloId = {filtro.modelo} marcaId = {filtro.marca}/>
+        </div>
+      </article>
     </>
   );
 }

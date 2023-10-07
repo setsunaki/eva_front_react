@@ -3,7 +3,6 @@ import { Global } from '../helpers/Global'
 import { Peticion } from '../helpers/Peticion'
 
 const Grilla = ({ bodegaId, modeloId, marcaId}) => {
-    console.log("Grilla renderizada");
     const [dispositivos, setDispositivos] = useState([]);
   
     useEffect(() => {
